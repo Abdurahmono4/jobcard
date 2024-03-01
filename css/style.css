@@ -1,0 +1,152 @@
+/* league-spartan-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/league-spartan-v11-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*:active,
+*:hover {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  font-family: "League Spartan";
+  font-weight: 700;
+  background: #effafa;
+  cursor: url("../images/image.png");
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1210px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.ceiling {
+  height: 156px;
+  background-color: #5ca5a5;
+  background-image: url("../images/shadow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 76px;
+}
+
+#job--list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.job--list__item {
+  background-color: white;
+  border-radius: 5px;
+  border-left: 5px solid transparent;
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.job--list__image {
+  border-radius: 50% !important;
+  margin-right: 24px;
+}
+
+.border--left {
+  border-left-color: #5ca5a5;
+}
+
+.job--list__info {
+  margin-right: auto;
+}
+
+.job--list__status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.job--list__company {
+  font-size: 18px;
+  color: #5ca5a5;
+  margin-right: 15px;
+}
+
+.job--list__status__new {
+  background-color: #5ca5a5;
+  color: #ffffff;
+  margin-right: 8px;
+  display: flex;
+  padding: 7px 8px 3px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 14px;
+  border-radius: 12px;
+}
+
+.job--list__company__feature {
+  display: flex;
+  border-radius: 12px;
+  padding: 7px 8px 3px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+.job--list__status__position {
+  margin-bottom: 7px;
+  font-size: 22px;
+  line-height: 24px;
+  color: #2b3939;
+}
+
+.job--list__about {
+  font-size: 18px;
+  color: #7c8f8f;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.job--list__contract {
+}
+.job--list__posted {
+}
+
+.job--list__filter {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.job--list__filter__item {
+  color: #5ca5a5;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  line-height: 24px;
+  background-color: #effafa;
+  cursor: pointer;
+}
